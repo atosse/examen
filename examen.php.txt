@@ -1,0 +1,95 @@
+<?php
+
+$personne=array(
+
+'nom'=>'Diop',
+
+'prenom'=>'Mouhamadou Atoumane',
+
+'email'=>'atoumane2019@gmail.com',
+
+'adresse'=>'Rufisque',
+
+'telephone'=>'778691938',
+
+'Date de naissance'=>'26/07/95',
+'Profession'=>'Informaticien',
+
+'identifiant slaclk'=>'Mouhamadou atoumane diop'
+
+);
+
+?>
+
+<!DDOCTYPE HTML>
+
+    <HTML lang='fr'>
+
+	  <head>
+
+	     <title>Mon formulaire </title>
+
+		  <style>
+
+		  table,tr,td,th{
+
+			  border:3px solid black ;
+
+			  border-radius:15px  15px 15px ;
+
+			  font-size:35px ;
+
+			  
+
+			  
+
+		  }
+
+		 body{ background:#E9967A;;
+
+		 }
+
+		 </style>
+
+		 </head>
+
+		 
+
+		 <body><center style=" padding-top:8%;">
+
+<table>
+
+<th colspan="4"><a href="NDEYA.jpg"><img src="my toff.jpg" 
+
+heigh : 5px ;
+
+width: 6px ;
+
+"/></a></th>
+
+		
+		<?php foreach ($personne as $key => $value): ?>
+
+<tr>
+
+<td><?php echo $key;?></td>
+
+<td><?php echo $value;?></td>
+
+</tr>
+
+<?php endforeach ?>
+
+</table>
+
+</center>
+
+</body>
+
+</html>
+
+	
+
+		 </body>
+
+		 </HTML>
